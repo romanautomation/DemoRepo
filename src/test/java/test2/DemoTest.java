@@ -42,4 +42,8 @@ public class DemoTest {
 		
 		
 	}
+	
+	public void login(){
+		
+	}
 }
