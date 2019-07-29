@@ -5,9 +5,12 @@ import org.testng.annotations.Test;
 
 public class DemoTest {
 
+	int j;
+	
 	@Test(priority=0)
 	public void sum(){
 		System.out.println("SUM");
+		
 		int a=10;
 		int b=20;
 		Assert.assertEquals(30, a+b);
